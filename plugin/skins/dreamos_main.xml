@@ -1,0 +1,19 @@
+<screen backgroundColor="transparent" flags="wfNoBorder" name="HRtunerProxy_main" position="center,center" size="1280,720" title=" ">
+    <eLabel backgroundColor="background" position="10,10" size="1260,700" zPosition="-1"/>
+    <eLabel backgroundColor="transparent" position="10,55" size="1260,2" zPosition="1"/>
+    <widget backgroundColor="background" font="Regular;26" foregroundColor="foreground" noWrap="1" position="30,15" render="Label" size="1080,35" source="Title" transparent="1" valign="center"/>
+    <widget backgroundColor="background" font="Regular;28" foregroundColor="foreground" halign="right" position="1150,15" render="Label" size="100,35" source="global.CurrentTime" transparent="1">
+        <convert type="ClockToText"/>
+    </widget>
+    <widget name="config" position="10,90" size="1180,120" enableWrapAround="1" scrollbarMode="showOnDemand" />
+    <widget name="information" position="10,250" size="1180,185" font="Regular;22"/>
+    <widget name="hinttext" position="10,400" size="1180,75" font="Regular;22" valign="bottom"/>
+    <widget backgroundColor="background" font="Regular;21" foregroundColor="foreground" name="key_red" position="65,677" size="200,30" transparent="1"/>
+    <widget backgroundColor="background" font="Regular;21" foregroundColor="foreground" name="key_green" position="305,677" size="200,30" transparent="1"/>
+    <widget backgroundColor="background" font="Regular;21" foregroundColor="foreground" name="key_yellow" position="550,677" size="200,30" transparent="1"/>
+    <widget backgroundColor="background" font="Regular;21" foregroundColor="foreground" name="key_blue" position="800,677" size="200,30" transparent="1"/>
+    <widget alphatest="on" name="button_red" pixmap="skin_default/buttons/button_red.png" position="30,680" size="16,16"/>
+    <widget alphatest="on" name="button_green" pixmap="skin_default/buttons/button_green.png" position="275,680" size="16,16"/>
+    <widget alphatest="on" name="button_yellow" pixmap="skin_default/buttons/button_yellow.png" position="520,680" size="16,16"/>
+    <widget alphatest="on" name="button_blue" pixmap="skin_default/buttons/button_blue.png" position="770,680" size="16,16"/>
+</screen>
